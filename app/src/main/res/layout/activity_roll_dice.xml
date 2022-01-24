@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RollDiceActivity">
+
+    <ImageView
+        android:id="@+id/imageDice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/alea_1" />
+
+    <Button
+        android:id="@+id/buttonDice"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:text="Roll Dice"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+</LinearLayout>
