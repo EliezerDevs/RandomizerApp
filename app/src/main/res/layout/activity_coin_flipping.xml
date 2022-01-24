@@ -21,7 +21,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="15dp"
-        android:text="Throw Coin"
+        android:text="Flip Coin"
         android:textSize="24sp" />
 
     <ImageView
